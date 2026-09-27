@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Портфолио Эльмиры</title>
+  <meta name="description" content="Сайт-визитка Эльмиры, начинающего Vibe Coding разработчика.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a class="logo" href="#hero">Эльмира</a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="nav">
+        Меню
+      </button>
+      <nav class="nav" id="nav" aria-label="Разделы страницы">
+        <a href="#work">Что я делаю</a>
+        <a href="#skills">Навыки</a>
+        <a href="#projects">Проекты</a>
+        <a href="#contacts">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero__decor" aria-hidden="true">
+        <span class="blob blob--violet"></span>
+        <span class="blob blob--coral"></span>
+        <span class="blob blob--mint"></span>
+      </div>
+      <div class="container hero__layout">
+        <div class="hero__copy">
+          <p class="hero__role">Начинающий Vibe Coding разработчик</p>
+          <h1 class="hero__name">Эльмира</h1>
+          <p class="hero__text">
+            Создаю веб-приложения, Telegram-ботов и Android-приложения.
+            Использую AI и Cursor для разработки.
+          </p>
+        </div>
+        <div class="hero__art" aria-hidden="true">
+          <svg viewBox="0 0 460 380" xmlns="http://www.w3.org/2000/svg">
+            <rect x="48" y="36" width="340" height="280" rx="28" fill="#ffffff"/>
+            <rect x="48" y="36" width="340" height="52" rx="28" fill="#6d4aff"/>
+            <rect x="48" y="68" width="340" height="20" fill="#6d4aff"/>
+            <circle cx="78" cy="62" r="6" fill="#ffffff"/>
+            <circle cx="100" cy="62" r="6" fill="#ffd0dc"/>
+            <circle cx="122" cy="62" r="6" fill="#c8f6ec"/>
+            <rect x="76" y="116" width="150" height="16" rx="8" fill="#ece6ff"/>
+            <rect x="76" y="146" width="110" height="12" rx="6" fill="#f3eefc"/>
+            <rect x="76" y="186" width="78" height="78" rx="18" fill="#f4f0ff"/>
+            <rect x="92" y="214" width="18" height="34" rx="6" fill="#6d4aff"/>
+            <rect x="116" y="202" width="18" height="46" rx="6" fill="#ff6b8a"/>
+            <rect x="168" y="186" width="168" height="78" rx="18" fill="#f3fbf8"/>
+            <circle cx="206" cy="225" r="18" fill="#2fbfa8"/>
+            <path d="M198 225l6 6 12-14" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="236" y="214" width="78" height="10" rx="5" fill="#d7f4ec"/>
+            <rect x="236" y="232" width="58" height="10" rx="5" fill="#e7f8f4"/>
+            <circle cx="390" cy="78" r="28" fill="#ff6b8a"/>
+            <circle cx="70" cy="300" r="22" fill="#2fbfa8"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="about">
+      <div class="container">
+        <h2>Обо мне</h2>
+        <p class="about__text">
+          Я изучаю Vibe Coding и создаю свои проекты с помощью AI и Cursor.
+          Учусь превращать идеи в работающие сайты, ботов и приложения.
+          Каждый проект — это практика, тестирование и новые навыки.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="container">
+        <h2>Что я делаю</h2>
+        <div class="grid">
+          <article class="card">
+            <h3>Веб-приложения</h3>
+            <p>Создаю веб-приложения.</p>
+          </article>
+          <article class="card">
+            <h3>Telegram-боты</h3>
+            <p>Разрабатываю Telegram-ботов.</p>
+          </article>
+          <article class="card">
+            <h3>Android-приложения</h3>
+            <p>Создаю Android-приложения.</p>
+          </article>
+          <article class="card">
+            <h3>AI и Cursor</h3>
+            <p>Использую AI и Cursor для разработки.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="skills">
+      <div class="container">
+        <h2>Мои навыки</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>SQLite</li>
+          <li>Kotlin</li>
+          <li>Cursor</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="container">
+        <h2>Мои проекты</h2>
+        <div class="grid">
+          <article class="card project">
+            <div class="project__media">
+              <img src="images/planner.png" alt="Скриншот умного планировщика жизни">
+            </div>
+            <h3>Умный планировщик жизни</h3>
+            <div class="project__body">
+              <p>Веб-приложение для планирования задач.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="project__media project__media--mint" aria-hidden="true">
+              <svg viewBox="0 0 560 220" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+                <ellipse cx="150" cy="118" rx="70" ry="28" fill="#b7eadc"/>
+                <path d="M118 150c8-48 28-78 62-96-6 40-8 70-2 108" fill="#2fbfa8"/>
+                <path d="M168 146c20-36 52-58 86-66-28 22-46 48-52 82" fill="#1fa892"/>
+                <path d="M146 150c2-40 8-62 18-78" fill="none" stroke="#147a68" stroke-width="3" stroke-linecap="round"/>
+                <circle cx="292" cy="64" r="10" fill="#6d4aff"/>
+                <rect x="300" y="58" width="4" height="36" rx="2" fill="#6d4aff"/>
+                <circle cx="330" cy="52" r="10" fill="#ff6b8a"/>
+                <rect x="338" y="46" width="4" height="40" rx="2" fill="#ff6b8a"/>
+                <path d="M360 96c18-8 28 6 18 20" fill="none" stroke="#6d4aff" stroke-width="4" stroke-linecap="round"/>
+                <rect x="300" y="108" width="210" height="78" rx="22" fill="#ffffff"/>
+                <circle cx="336" cy="147" r="14" fill="#6d4aff"/>
+                <path d="M332 147l8 5-8 5v-10z" fill="#ffffff"/>
+                <rect x="362" y="136" width="112" height="10" rx="5" fill="#ece6ff"/>
+                <rect x="362" y="154" width="78" height="10" rx="5" fill="#f3eefc"/>
+              </svg>
+            </div>
+            <h3>Дикая Мята</h3>
+            <div class="project__body">
+              <p>Telegram-бот для приёма музыкальных заявок. Данные заявок сохраняются в SQLite.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>Python</li>
+                <li>Telegram Bot API</li>
+                <li>SQLite</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="project__media">
+              <img src="images/android.png" alt="Скриншот Android-приложения">
+            </div>
+            <h3>Android-приложение</h3>
+            <div class="project__body">
+              <p>Учебное мобильное приложение, созданное с помощью Cursor.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>Kotlin</li>
+                <li>Android Studio</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="project__media">
+              <img src="images/budget.png" alt="Скриншот калькулятора семейного бюджета">
+            </div>
+            <h3>Калькулятор семейного бюджета</h3>
+            <div class="project__body">
+              <p>Веб-приложение для учёта доходов и расходов.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="project__media">
+              <img src="images/quiz.png" alt="Скриншот викторины по русскому языку">
+            </div>
+            <h3>Викторина по русскому языку</h3>
+            <div class="project__body">
+              <p>Интерактивное образовательное веб-приложение.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+          <article class="card project">
+            <div class="project__media project__media--landing">
+              <img src="images/landing.png" alt="Скриншот лендинга">
+            </div>
+            <h3>Лендинги</h3>
+            <div class="project__body">
+              <p>Создание современных одностраничных сайтов для презентации проектов, услуг и продуктов.</p>
+            </div>
+            <div class="project__tools">
+              <p>Инструменты</p>
+              <ul class="project__tech">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Cursor</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--soft" id="contacts">
+      <div class="container">
+        <h2>Контакты</h2>
+        <p class="section__lead">Можно написать по почте или найти меня по ссылкам ниже.</p>
+        <ul class="contacts">
+          <li>
+            <span>Telegram</span>
+            <a href="https://t.me/FaizullinaElmira">@FaizullinaElmira</a>
+          </li>
+          <li>
+            <span>GitHub</span>
+            <a href="https://github.com/ehl8990-glitch">ehl8990-glitch</a>
+          </li>
+          <li>
+            <span>Email</span>
+            <a href="mailto:ehl8990@yandex.ru">ehl8990@yandex.ru</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p>Портфолио Эльмиры</p>
+      <p>© 2026</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
